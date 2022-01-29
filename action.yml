@@ -1,0 +1,25 @@
+name: 'Notion to GitHub sync'
+description: 'Greet someone and record the time'
+inputs:
+  notion-integration-key:  # id of input
+    description: 'Your notion api key'
+    required: true
+  github-access-token:  # id of input
+    description: 'Your GitHub api key'
+    required: true
+  repo-owner:  # id of input
+    description: 'The organization or user to which the project belongs'
+    required: true
+  repo:  # id of input
+    description: 'Your github repository identifier'
+    required: true
+  branch:  # id of input
+    description: 'The branch from which to work'
+    required: true
+    default: 'main'
+  docs-path:
+    description: 'The path to your md files'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
