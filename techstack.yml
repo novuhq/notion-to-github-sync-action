@@ -2,7 +2,7 @@ repo_name: novuhq/notion-to-github-sync-action
 report_id: b4422fd858eeebb2f63ec69d8bca5b94
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-04T14:57:35+00:00'
+timestamp: '2024-01-05T09:22:20+00:00'
 requested_by: scopsy
 provider: github
 branch: main
